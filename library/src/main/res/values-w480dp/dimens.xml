@@ -1,0 +1,83 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!-- 3 -->
+    <dimen name="activity_horizontal_margin">24dp</dimen>
+    <dimen name="activity_vertical_margin">24dp</dimen>
+
+    <!-- 文字大小定义 -->
+    <!--小小号字体-->
+    <dimen name="smini_text_size">12sp</dimen>
+    <!--小号字体-->
+    <dimen name="mini_text_size">15sp</dimen>
+    <!--普通字体-->
+    <dimen name="micro_text_size">18sp</dimen>
+    <!--小号字体-->
+    <dimen name="small_text_size">21sp</dimen>
+    <!--中等字体-->
+    <dimen name="medium_text_size">24sp</dimen>
+    <!--大中等字体-->
+    <dimen name="xmedium_text_size">27sp</dimen>
+    <!--大号字体-->
+    <dimen name="large_text_size">30sp</dimen>
+    <!--加大号字体-->
+    <dimen name="xlarge_text_size">33sp</dimen>
+    <!--加加大号字体-->
+    <dimen name="xxlarge_text_size">63sp</dimen>
+    <!--加加加大号字体-->
+    <dimen name="xxxlarge_text_size">87sp</dimen>
+
+
+    <!-- 应用标题栏高度 96px -->
+    <dimen name="toolbar_height">72dp</dimen>
+
+    <!-- 页边距 20px -->
+    <dimen name="layout_margin">15dp</dimen>
+    <!-- 控件留白 16px -->
+    <dimen name="view_padding">12dp</dimen>
+
+    <!-- 小按钮高度 50px -->
+    <dimen name="small_btn_height">37.5dp</dimen>
+    <!-- 一般控件高度 70px -->
+    <dimen name="btn_height">52.5dp</dimen>
+    <!-- 大按钮高度 90px -->
+    <dimen name="large_btn_height">67.5dp</dimen>
+    <!-- 弹窗按钮高度 80px -->
+    <dimen name="dialog_btn_height">60dp</dimen>
+
+    <!-- Tab 高度 96px -->
+    <dimen name="tab_height">72dp</dimen>
+
+    <!-- 弹窗内容最小高度 194px-->
+    <dimen name="dialog_tips_min_height">145.5dp</dimen>
+    <!-- 弹窗内容最大高度 700px-->
+    <dimen name="dialog_tips_max_height">525dp</dimen>
+
+    <!-- 分隔线高度 1px -->
+    <dimen name="line_height">0.75dp</dimen>
+
+    <!-- 圆角 10px-->
+    <dimen name="radius_size">7.5dp</dimen>
+    <!-- 大圆角 30px-->
+    <dimen name="big_radius_size">22.5dp</dimen>
+    <!-- 文字边距 -->
+    <dimen name="text_padding">6dp</dimen>
+    <!-- 图文间距 -->
+    <dimen name="draw_padding">7.5dp</dimen>
+
+    <dimen name="margin_small">3dp</dimen>
+    <dimen name="margin_1">7.5dp</dimen>
+    <dimen name="margin_2">15dp</dimen>
+    <dimen name="margin_3">22.5dp</dimen>
+    <dimen name="margin_4">30dp</dimen>
+    <dimen name="margin_5">37.5dp</dimen>
+    <dimen name="margin_6">45dp</dimen>
+    <dimen name="margin_7">52.5dp</dimen>
+    <dimen name="margin_8">60dp</dimen>
+    <dimen name="margin_9">67.5dp</dimen>
+    <dimen name="margin_10">75dp</dimen>
+    <dimen name="margin_17dp">25.5dp</dimen>
+    <dimen name="margin_bottom">225dp</dimen>
+
+    <dimen name="negative_margin">-15dp</dimen>
+</resources>

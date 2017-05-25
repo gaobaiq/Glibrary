@@ -37,4 +37,10 @@ dependencies {
 
     // RecyclerView
     compile 'com.android.support:recyclerview-v7:23.4.0'
+
+    // View注解框架
+    compile 'com.jakewharton:butterknife:7.0.1'
+
+    // 订阅信息
+    compile 'io.reactivex:rxjava:1.1.5'
 }
