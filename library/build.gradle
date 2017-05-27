@@ -43,4 +43,7 @@ dependencies {
 
     // 订阅信息
     compile 'io.reactivex:rxjava:1.1.5'
+
+    //gson解析
+    compile 'com.google.code.gson:gson:2.5'
 }
