@@ -1,0 +1,27 @@
+<resources>
+
+    <style name="dialog_style">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <!--PopupWindow 进入退出动画 从下到上-->
+    <style name="AnimationPopupWindow_folder">
+        <item name="android:windowEnterAnimation">@anim/folder_enter</item>
+        <item name="android:windowExitAnimation">@anim/folder_exit</item>
+    </style>
+
+    <!--PopupWindow 进入退出动画 从下到上-->
+    <style name="AnimationPopupWindow_bottom_to_up">
+        <item name="android:windowEnterAnimation">@anim/up_to_bottom</item>
+        <item name="android:windowExitAnimation">@anim/bottom_to_up</item>
+    </style>
+
+
+    <!--PopupWindow 进入退出动画 从上到下-->
+    <style name="AnimationPopupWindow_up_to_bottom">
+        <item name="android:windowEnterAnimation">@anim/scale_in</item>
+        <item name="android:windowExitAnimation">@anim/scale_out</item>
+    </style>
+</resources>

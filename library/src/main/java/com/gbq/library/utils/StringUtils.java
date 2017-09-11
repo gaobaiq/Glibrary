@@ -381,6 +381,30 @@ public class StringUtils {
      * @param delim  单词的分隔字符串
      * @return 划分以后的数组，如果source为null的时候返回以source为唯一元素的数组， 如果delim为null则使用逗号作为分隔字符串.
      */
+    public static ArrayList<String> split2Array(final String source, String delim) {
+        ArrayList<String> wordLists = new ArrayList<>();
+        if (source == null) {
+            wordLists.add(source);
+            return wordLists;
+        }
+        if (delim == null) {
+            delim = ",";
+        }
+        final StringTokenizer st = new StringTokenizer(source, delim);
+        final int total = st.countTokens();
+        for (int i = 0; i < total; i++) {
+            wordLists.add(st.nextToken());
+        }
+        return wordLists;
+    }
+
+    /**
+     * 此方法将给出的字符串source使用delim划分为单词数组.
+     *
+     * @param source 需要进行划分的原字符串
+     * @param delim  单词的分隔字符串
+     * @return 划分以后的数组，如果source为null的时候返回以source为唯一元素的数组， 如果delim为null则使用逗号作为分隔字符串.
+     */
     public static String[] split(final String source, String delim) {
         String[] wordLists;
         if (source == null) {

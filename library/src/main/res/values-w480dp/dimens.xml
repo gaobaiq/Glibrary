@@ -76,8 +76,11 @@
     <dimen name="margin_8">60dp</dimen>
     <dimen name="margin_9">67.5dp</dimen>
     <dimen name="margin_10">75dp</dimen>
-    <dimen name="margin_17dp">25.5dp</dimen>
-    <dimen name="margin_bottom">225dp</dimen>
+    <dimen name="margin_20">150dp</dimen>
+    <dimen name="margin_30">225dp</dimen>
+    <dimen name="margin_40">300dp</dimen>
+    <dimen name="margin_50">375dp</dimen>
+    <dimen name="margin_60">450dp</dimen>
 
     <dimen name="negative_margin">-15dp</dimen>
 </resources>

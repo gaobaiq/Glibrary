@@ -5,7 +5,7 @@ import java.util.Random;
 import java.util.Set;
 
 /**
- * 类说明：app签名生成
+ * 类说明：app签名生成工具
  * Author: Kuzan
  * Date: 2017/5/26 18:51.
  */
@@ -106,15 +106,5 @@ public class AppParamEncryptUtil {
         System.out.println(a);
     }
 
-    // public static void main(String[] args) {
-    //
-    // // for (int index = 0; index < 1000000; index++) {
-    // String str = AppParamEncryptUtil.encryptCharStr();
-    // System.out.println(str);
-    // boolean r = AppParamEncryptUtil.decryptParamStr(str);
-    // AssertUtil.assertTrue(r, "xx");
-    // System.out.println(signParamStr(str, "exy"));
-    // // }
-    // }
     private static final char[] charArray = new char[]{'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
 }

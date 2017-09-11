@@ -1,0 +1,32 @@
+<resources>
+    <!-- English -->
+
+    <!-- update apk info -->
+    <string name="down_load_str001">Downloading</string>
+    <string name="down_load_str002">Downloading...</string>
+    <string name="down_load_str003">Download complete, click Install</string>
+    <string name="down_load_str004">Download failed. Start browser download!</string>
+
+    <!-- pull refresh -->
+    <string name="refresh_by_loosen">Loosen refresh</string>
+    <string name="refresh_by_drop_down">Drop down refresh</string>
+    <string name="refreshing">Refreshing</string>
+    <string name="load_by_loosen">Loosen load</string>
+    <string name="load_by_pull_up">Pull up load</string>
+    <string name="loading">Loading</string>
+    <string name="has_loaded_finish">It is all loaded</string>
+
+    <string name="money">¥</string>
+    <string name="money_str">¥%1$.2f</string>
+
+    <string name="tip_no_data">No data!</string>
+    <string name="tip_no_net">er! net is error</string>
+    <string name="btn_refresh">Refresh</string>
+
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_ok">Ok</string>
+    <string name="btn_finish">Finish</string>
+    <string name="btn_no">No</string>
+    <string name="btn_yes">Yes</string>
+</resources>

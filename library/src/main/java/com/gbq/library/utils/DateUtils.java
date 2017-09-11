@@ -2,6 +2,7 @@ package com.gbq.library.utils;
 
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
+import android.util.Log;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -1247,6 +1248,23 @@ public class DateUtils {
     @NonNull
     public static String fillZero(int number) {
         return number < 10 ? "0" + number : "" + number;
+    }
+
+    /**
+     * 截取掉前缀0以便转换为整数
+     *
+     * @see #fillZero(int)
+     */
+    public static int trimZero(@NonNull String text) {
+        try {
+            if (text.startsWith("0")) {
+                text = text.substring(1);
+            }
+            return Integer.parseInt(text);
+        } catch (NumberFormatException e) {
+            Log.w("TAG", e);
+            return 0;
+        }
     }
 
     /**

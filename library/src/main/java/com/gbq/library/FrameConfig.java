@@ -20,7 +20,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 /**
  * 类说明：框架常量
  * Author: Kuzan
- * Date: 2017/5/26 18:48.
+ * Date: 2017/6/17 09:52.
  */
 public class FrameConfig {
     public static String sdPath = Environment.getExternalStorageDirectory().getPath();

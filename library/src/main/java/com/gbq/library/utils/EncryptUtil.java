@@ -6,7 +6,7 @@ import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 
 /**
- * 类说明：
+ * 类说明：md5加密解密工具
  * Author: Kuzan
  * Date: 2017/5/26 18:52.
  */

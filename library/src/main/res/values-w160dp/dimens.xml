@@ -76,8 +76,12 @@
     <dimen name="margin_8">20dp</dimen>
     <dimen name="margin_9">22.5dp</dimen>
     <dimen name="margin_10">25dp</dimen>
-    <dimen name="margin_17dp">8.5dp</dimen>
-    <dimen name="margin_bottom">75dp</dimen>
+    <dimen name="margin_20">50dp</dimen>
+    <dimen name="margin_30">75dp</dimen>
+    <dimen name="margin_40">100dp</dimen>
+    <dimen name="margin_50">125dp</dimen>
+    <dimen name="margin_60">150dp</dimen>
+
 
     <dimen name="negative_margin">-5dp</dimen>
 

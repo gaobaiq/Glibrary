@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_height">
+
+        <TextView
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/layout_margin"
+            android:paddingRight="@dimen/layout_margin"
+            android:gravity="center"
+            android:textColor="@color/colorDark"
+            android:textSize="@dimen/small_text_size"
+            android:text="@string/btn_cancel"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorDark"
+            android:textSize="@dimen/small_text_size"
+            tools:text="请选择"/>
+
+        <TextView
+            android:id="@+id/btn_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/layout_margin"
+            android:paddingRight="@dimen/layout_margin"
+            android:gravity="center"
+            android:textColor="@color/colorDark"
+            android:textSize="@dimen/small_text_size"
+            android:text="@string/btn_finish"/>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/colorLine"/>
+
+    <com.gbq.library.widget.customview.wheelview.WheelView
+        android:id="@+id/wheel_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/margin_60"/>
+
+</LinearLayout>

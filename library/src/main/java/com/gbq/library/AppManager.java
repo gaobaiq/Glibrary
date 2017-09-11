@@ -9,7 +9,7 @@ import java.util.Stack;
 /**
  * 类说明：Activity管理
  * Author: Kuzan
- * Date: 2017/5/25 15:06.
+ * Date: 2017/6/17 9:49.
  */
 public class AppManager {
     private static Stack<Activity> activityStack;

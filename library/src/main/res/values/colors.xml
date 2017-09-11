@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color><!--无色透明-->
+    <color name="white">#ffffff</color><!--白色-->
+    <color name="black">#000000</color><!-- 黑色-->
+    <color name="colorDivider">#cccccc</color><!--线条颜色-->
+
+    <color name="colorGreen">#25ab38</color><!--绿色-->
+    <color name="colorOrange">#ffb400</color><!--橙色-->
+    <color name="colorRed">#ff5c36</color><!--红色-->
+    <color name="colorBlue">#3366ff</color><!--蓝色-->
+    <color name="colorPurple">#735de6</color><!--紫色-->
+    <color name="colorGray">#a3a3a3</color><!--灰色-->
+    <color name="colorDark">#282828</color>
+    <color name="colorGrayDark">#656565</color>
+
+    <color name="colorLine">#e7e7e7</color><!--线条颜色-->
+
+</resources>

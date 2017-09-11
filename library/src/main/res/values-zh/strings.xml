@@ -1,0 +1,32 @@
+<resources>
+    <!-- 中文简体 -->
+
+    <!-- update apk info -->
+    <string name="down_load_str001">正在下载中</string>
+    <string name="down_load_str002">下载中...</string>
+    <string name="down_load_str003">下载完成，点击安装</string>
+    <string name="down_load_str004">下载失败，启动浏览器下载!</string>
+
+    <!-- pull refresh -->
+    <string name="refresh_by_loosen">松开刷新</string>
+    <string name="refresh_by_drop_down">下拉刷新</string>
+    <string name="refreshing">正在刷新</string>
+    <string name="load_by_loosen">松开加载</string>
+    <string name="load_by_pull_up">上拉加载</string>
+    <string name="loading">正在加载</string>
+    <string name="has_loaded_finish">已经全部加载完毕</string>
+
+    <string name="money">¥</string>
+    <string name="money_str">¥%1$.2f</string>
+
+    <string name="tip_no_data">暂无数据</string>
+    <string name="tip_no_net">哎呀！网络出错了</string>
+    <string name="btn_refresh">点击刷新</string>
+
+    <string name="btn_cancel">取消</string>
+    <string name="btn_confirm">确认</string>
+    <string name="btn_ok">确定</string>
+    <string name="btn_finish">完成</string>
+    <string name="btn_no">否</string>
+    <string name="btn_yes">是</string>
+</resources>
