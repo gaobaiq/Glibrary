@@ -403,16 +403,24 @@ public class SystemBarUtil {
             tintManager.setStatusBarTintEnabled(true);
             tintManager.setStatusBarTintColor(colorId);
 
-            // 小米系统
-            if (isMIUI()) {
-                ViewGroup decorView = (ViewGroup) activity.getWindow().getDecorView();
-                ViewGroup contentView = (ViewGroup) decorView.findViewById(android.R.id.content);
-                if (isPadding) {
-                    contentView.setPadding(0, getStatusBarHeight(activity), 0, 0);
-                } else {
-                    contentView.setPadding(0, 0, 0, 0);
-                }
+            ViewGroup decorView = (ViewGroup) activity.getWindow().getDecorView();
+            ViewGroup contentView = (ViewGroup) decorView.findViewById(android.R.id.content);
+            if (isPadding) {
+                contentView.setPadding(0, getStatusBarHeight(activity), 0, 0);
+            } else {
+                contentView.setPadding(0, 0, 0, 0);
             }
+
+            // 小米系统
+//            if (isMIUI()) {
+//                ViewGroup decorView = (ViewGroup) activity.getWindow().getDecorView();
+//                ViewGroup contentView = (ViewGroup) decorView.findViewById(android.R.id.content);
+//                if (isPadding) {
+//                    contentView.setPadding(0, getStatusBarHeight(activity), 0, 0);
+//                } else {
+//                    contentView.setPadding(0, 0, 0, 0);
+//                }
+//            }
         }
     }
 
